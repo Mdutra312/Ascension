@@ -1,0 +1,188 @@
+
+body{
+    display: grid;
+    height: 100vh;
+    grid-template-areas: 
+    "aside1 main aside2";
+    margin: 0;
+}
+
+
+main{
+    background-color: white;
+    grid-area: main;
+    border: 1px solid #E6ECF0;
+    margin: 10px;
+
+
+}
+
+main section{
+    background-color: white;
+    margin: 10px;
+}
+
+.aside-esquerdo{
+    grid-area: aside1;
+    border: none !important;
+
+}
+
+.aside-esquerdo, .letras{
+    background-color: white;
+    grid-area: aside1;
+    border: 1px solid #E6ECF0;
+    display: flex;
+    flex-flow: column;
+    margin: 10px;
+}
+
+button{
+    width: 209px;
+    height: 47px;
+    
+    background: #5A56E9;
+    border-radius: 34px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 12;
+    flex-grow: 0;
+
+}
+
+
+
+
+.aside-direito{
+    background-color: white;
+    grid-area: aside2;
+ 
+    margin: 10px;
+
+}
+
+
+.aside-direito input{
+    background-color:white;
+    grid-area: aside2;
+    border: 1px solid #E6ECF0;
+    margin: 10px;
+    width: 350px;
+    height: 40px;
+    left: 30px;
+    top: 8px;
+    background: #EDECFF;
+    border-radius: 40px;
+
+}
+
+::placeholder{
+    padding-left: 20px;
+}
+
+.letras{
+    margin-left: 10px;
+}
+
+.titulo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #36346A;
+}
+
+
+.home-buuton{
+    width: 123px;
+height: 44px;
+
+background: #EDECFF;
+border-radius: 43px;
+
+/* Inside auto layout */
+order: 1;
+flex-grow: 0;
+border: none;
+}
+
+
+button{
+    border: none;
+}
+
+
+
+.itens-p{
+    padding-left: 10px;
+}
+
+
+.letras-aside{
+   padding-left: 10px;
+}
+
+
+body{
+    margin: 23px;
+}
+
+.logo{
+    width: 42px;
+    height: 42px;
+    
+    background: url(Altruismus__3_-removebg-preview.png);
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.letras-aside{
+   
+    display: flex;
+    flex-flow: column;
+    margin: 10px;
+}
+
+
+*{
+   color: #5A56E9;
+}
+.doar{
+    color: #E6ECF0;
+}
+
+
+.jogo-velha{
+   
+    display: flex;
+    flex-flow: column;
+    background-color:#EDECFF;
+    border-radius: 10px;
+}
+.jogo-velha section{
+  display: flex;
+  justify-content: left;
+  margin: 3px; 
+}
+
+
+.img-section{
+    display: flex;
+}
+
+.icones-side{
+   width: 20px;
+}
+
+.roupas{
+    border-bottom: 1px gray solid;
+}

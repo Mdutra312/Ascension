@@ -1,0 +1,171 @@
+
+
+body{
+    background: linear-gradient(28.92deg,
+     rgba(90, 86, 233, 0.5) 46%,
+     rgba(90, 86, 233, 0) 68.46%), 
+     linear-gradient(58.06deg, #5A56E9 0%,
+     rgba(46, 43, 150, 0.1) 57.86%);
+    
+}
+main nav{
+    display: flex;
+    border-radius: 100%;
+    justify-content: space-evenly;
+    height: 99vh;
+    
+
+}
+
+
+
+main nav section{
+    flex: 4;
+    
+}
+
+main nav .box-right section section {
+
+    margin-left: 190px;
+
+}
+
+input, button{
+    margin-left: 190px;
+}
+
+main nav section{
+    padding: 0 !important;
+}
+
+
+
+
+main nav .login{
+   font-size: 30px;
+    font-weight: 400;
+}
+
+
+
+
+main nav .mudanca{
+color: #919090;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+.box-right section{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.emailMais{
+    color: #919090;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #919090;
+    margin-left: 190px;
+}
+
+
+.senha{
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #919090;
+    margin-left: 190px;
+}
+
+
+nav section button{
+    width: 200px;
+    height: 50px;
+
+    background: #5A56E9;
+    border-radius: 10px;
+    border: none;
+    color: #EDEDED;
+}
+
+
+span{
+    font-weight: 700;
+    color: #5A56E9;
+}
+
+
+
+.box-icones, .option{
+  width: 100px;
+  height: 0px;
+}
+
+
+input{
+    width: 190px;
+}
+
+
+main nav section, .box-right{
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.juncao{
+    display: flex;
+    padding: 0%;
+    height: 300px;
+   
+}
+
+
+main nav section section .juncao{
+    display: flex;
+    
+}
+
+main nav section section .juncao p{
+    display: flex;
+   justify-content: left;
+
+}
+
+
+.img1{
+
+    background-color: #5A56E9;
+}
+
+input{
+    border-radius: 8px;
+    border-color: #EDEDED;
+    background-color: #EDEDED;
+    border: none;
+    height: 25px;
+}
